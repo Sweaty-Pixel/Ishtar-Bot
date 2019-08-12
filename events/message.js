@@ -1,9 +1,9 @@
 // Ping-Pong
 module.exports = (client, message) => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!')
+  if (message.content === 'ping') {
+    message.reply('Pong!')
   }
-})
+});
 
 
 // Kick Message
